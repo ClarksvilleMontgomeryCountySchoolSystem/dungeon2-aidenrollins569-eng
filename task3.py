@@ -1,5 +1,4 @@
 good = (r"""
-Shadow: Attack and run
      _               _               
     | |             | |              
  ___| |__   __ _  __| | _____      __
@@ -9,7 +8,6 @@ Shadow: Attack and run
 """)
 
 bad = (r"""
-Doom: Doom and despair
   __ _       _     _   
  / _(_)     | |   | |  
 | |_ _  __ _| |__ | |_ 
@@ -21,7 +19,9 @@ Doom: Doom and despair
 """)
 guard_awake = False
 if not guard_awake:
-    outcome = good
+    outcome = "Shadow: Attack and run"
+    print(good)
 else:
-    outcome = bad
+    outcome = "Doom: Doom and despair"
+    print(bad)
 print(outcome)

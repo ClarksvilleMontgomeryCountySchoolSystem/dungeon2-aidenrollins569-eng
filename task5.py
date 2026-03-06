@@ -1,12 +1,10 @@
 good = (r"""
-Legend: Fruits and berries
  ,
  \`.__.
   `._,'
 """)
 
 bad = (r"""
-Doom: Lost cause
                _                     
               | |                    
  ___  __ _  __| |_ __   ___  ___ ___ 
@@ -17,7 +15,9 @@ Doom: Lost cause
 
 escaped = True
 if escaped:
-    outcome = good
+    outcome = "Legend: Fruits and berries"
+    print(good)
 else:
-    outcome = bad
+    outcome = "Doom: Lost cause"
+    print(bad)
 print(outcome)

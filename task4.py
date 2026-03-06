@@ -1,5 +1,4 @@
 good = (r"""
-Thunder: Shutter my tumbers
   ______________________________________________________
    [[]]-[[]]-[[]]-[[]]-[[]]-[[]]-[[]]-[[]]-[[]]-[[]]-[[]]
    .-.`| `-/-.__/.-'\_.-._,'/`-._'\_.-._`-'_/-._.'|/.-'\-
@@ -16,7 +15,6 @@ Thunder: Shutter my tumbers
 """)
 
 bad = (r"""
-Doom: Runner funner
      _.-^^---....,,--
  _--                  --_
 <                        >)
@@ -30,7 +28,9 @@ Doom: Runner funner
 """)
 drawbridge_raised = True
 if not drawbridge_raised:
-    outcome = good
+    outcome = "Thunder: Shutter my tumbers"
+    print(good)
 else:
-    outcome = bad
+    outcome = "Doom: Runner funner"
+    print(bad)
 print(outcome)

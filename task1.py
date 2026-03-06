@@ -1,5 +1,4 @@
 good = (r"""
-Flicker: Hummus in the fridge
 
            /|
         /\/ |/\
@@ -24,7 +23,6 @@ Flicker: Hummus in the fridge
           |    |
 """)
 bad = (r"""
-Doom: Doom eternal slayer
 +-----------------------------------------------------------------------------+
 | |       |\                                           -~ /     \  /          |
 |~~__     | \                                         | \/       /\          /|
@@ -47,9 +45,11 @@ Doom: Doom eternal slayer
 |   AMMO   |  HEALTH  |  5  6  7  |  \===/  |    ARMOR    |#| ....  ......... |
 +-----------------------------------------------------------------------------+
 """)
-torch_lit = True
+torch_lit = False
 if torch_lit:
-    outcome = good
+    outcome = "Hummus in the fridge"
+    print(good)
 else:
-    outcome = bad
+    outcome = "Doom: Doom eternal slayer"
+    print(bad)
 print(outcome)

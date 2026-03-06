@@ -1,5 +1,4 @@
 good = (r"""
-Click: flicker on
             xxxxxxx                 mmmmmmmmmmmm               
            xxx   xxx               mmm        mmm              
       xxxxxxx     xxxxxxx         mm            mm             
@@ -24,7 +23,6 @@ Click: flicker on
 """)
 
 bad = (r"""
-Doom: Doomer shoomer
              \|/
             .-*-         
            / /|\         
@@ -38,7 +36,9 @@ Doom: Doomer shoomer
 """)
 has_key = True
 if has_key:
-    outcome = good
+    outcome = "Click: flicker on"
+    print(good)
 else:
-    outcome = bad
+    outcome = "Doom: Doomer shoomer"
+    print(bad)
 print(outcome)
