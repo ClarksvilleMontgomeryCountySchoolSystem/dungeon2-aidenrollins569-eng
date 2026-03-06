@@ -47,7 +47,7 @@ bad = (r"""
 """)
 torch_lit = True
 if torch_lit:
-    outcome = "Hummus in the fridge"
+    outcome = "Flicker: Hummus in the fridge"
     print(good)
 else:
     outcome = "Doom: Doom eternal slayer"
