@@ -45,7 +45,7 @@ bad = (r"""
 |   AMMO   |  HEALTH  |  5  6  7  |  \===/  |    ARMOR    |#| ....  ......... |
 +-----------------------------------------------------------------------------+
 """)
-torch_lit = False
+torch_lit = True
 if torch_lit:
     outcome = "Hummus in the fridge"
     print(good)
